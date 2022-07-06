@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Web de noticias</title>
+    <meta name="description" content="Esta es la mejor web de noticas del mundo!!!">
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/png">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/print.css" media="print">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <link rel="stylesheet" href="css/maps.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="cabecera" class="zona">
+            <nav id="nav-idiomas">
+                <a href="">Español
+                    <a href="">Inglés</a>
+            </nav>
+            <header>
+                <img id="logo" src="imgs/avatar gato.png" width="200">
+                <div>
+                    <h1 id="tituloPagina" class="tituloPagina">Noticias Gatunas</h1>
+                    <p>La mejor página de noticias del mundo mundial!!</p>
+                </div>
+            </header>
+        </div>
+
+        <nav id="nav-principal">
+            <div id="menu-movil">
+                <img src="imgs/menu.png" alt="">
+            </div>
+            <ul>
+                <li class="titulo">
+                    <h1>Menú</h1>
+                </li>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="">Quienes somos</a>
+                </li>
+                <li>
+                    <a href="">Categorías</a>
+                    <ul>
+                        <li><a href="">Cuidados</a></li>
+                        <li><a href="">Novedades</a></li>
+                        <li><a href="">Local</a></li>
+                        <li><a href="">Internacional</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- <main id="wrapper" class="zona">  -->
+
+        <h2 class="registro">💥 Registrate y recibiras cada dia tus noticias personalizadas 💥</h2><br>
+
+
+
+
+        <form method="get" action="procesar.html" id="formulario">
+            <div class="form-group">
+                <p>
+                    <label for="nombreID">Nombre..........</label>
+                    <input name="nombre" required id="nombre" type="text" class="form-control">
+                </p>
+                <br>
+                <p>
+                    <label for="password">password.....</label>
+                    <input type="password" id="password" name="password">
+                </p>
+                <br>
+                <p>
+                    <label for="email1">Email................</label>
+                    <input type="email" id="email1" name="email1">
+                </p>
+                <br>
+                <p>
+                    <label for="email2">Repite email.</label>
+                    <input type="email" id="email2" name="email2" onchange="compruebaEmails()">
+                </p>
+                <br>
+                <p>
+                <p>Categorias</p>
+                <label for="check1">Mascotas</label>
+                <input type="checkbox" id="check1" name="categorias[]">
+                <label for="check2">Cuidados</label>
+                <input type="checkbox" id="check2" name="categorias[]">
+                </p>
+                <br>
+                <button class="colorBoton" type="submit">Enviar</button>
+                </p>
+            </div>
+        </form>
+
+    </div>
+
+    <div id="mapa">
+
+        <div id="cntMapa"> </div>
+        
+        <script src="js/index.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAo2spkHbD-wfnjw2cqvAaBo07Iq0dQ1e0&callback=initMap&v=weekly&channel=2" async></script>
+      
+    </div>
+
+
+<script src="index.js"></script>
+<script src="app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Web de noticias</title>
+    <meta name="description" content="Esta es la mejor web de noticas del mundo!!!">
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/png">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/print.css" media="print">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="cabecera" class="zona">
+            <nav id="nav-idiomas">
+                <a href="">Español
+                    <a href="">Inglés</a>
+            </nav>
+            <header>
+                <img id="logo" src="imgs/avatar gato.png" width="200">
+                <div>
+                    <h1 id="tituloPagina" class="tituloPagina">Noticias Gatunas</h1>
+                    <p>La mejor página de noticias del mundo mundial!!</p>
+                </div>
+            </header>
+        </div>
+
+        <nav id="nav-principal">
+            <div id="menu-movil">
+                <img src="imgs/menu.png" alt="">
+            </div>
+            <ul>
+                <li class="titulo">
+                    <h1>Menú</h1>
+                </li>
+                <li>
+                    <a href="">Inicio</a>
+                </li>
+                <li>
+                    <a href="">Quienes somos</a>
+                </li>
+                <li>
+                    <a href="">Categorías</a>
+                    <ul>
+                        <li><a href="">Cuidados</a></li>
+                        <li><a href="">Novedades</a></li>
+                        <li><a href="">Local</a></li>
+                        <li><a href="">Internacional</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main id="wrapper" class="zona">
+            <section id="cnt">
+                <article class="noticia">
+                    <h1>Gatos en el salón</h1>
+                    <img src="imgs/gato.jpg" width="100" alt="asfasdf" title="asdfasd asd fasdf ">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, beatae omnis. Ipsa,
+                        reprehenderit at. Officiis minima ducimus libero nulla aut, et fuga vitae ratione quis
+                        repudiandae maxime accusamus unde nobis.</p>
+                    <p class="leermar"><a href="">Leer más</a></p>
+                </article>
+                <article class="noticia">
+                    <h1>Gatos en la cocina</h1>
+                    <img src="imgs/fondo.jpg" width="100">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, beatae omnis. Ipsa,
+                        reprehenderit at. Officiis minima ducimus libero nulla aut, et fuga vitae ratione quis
+                        repudiandae maxime accusamus unde nobis.</p>
+                    <p class="leermar"><a href="">Leer más</a></p>
+                </article>
+                <nav class="paginacion">
+                    <ul>
+                        <li><a href="" class="disabled">&lt; Prev</a></li>
+                        <li><a href="">1</a></li>
+                        <li><a href="">2</a></li>
+                        <li><a href="">3</a></li>
+                        <li><a href="">4</a></li>
+                        <li><a href="contacto.html">Next &gt;</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <aside id="barraLateral">
+                <article class="noticia relacionada">
+                    <h1>Título de la noticia 1</h1>
+                    <time datetime="2022-07-04">Publicado hoy</time>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, beatae omnis. Ipsa,
+                        reprehenderit at. Officiis minima ducimus libero nulla aut, et fuga vitae ratione quis
+                        repudiandae maxime accusamus unde nobis.</p>
+                    <p class="leermar"><a href="">Leer más</a></p>
+                </article>
+                <article class="noticia relacionada">
+                    <h1>Título de la noticia 2</h1>
+                    <time datetime="2022-07-04">Publicado el 04/07/2022</time>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, beatae omnis. Ipsa,
+                        reprehenderit at. Officiis minima ducimus libero nulla aut, et fuga vitae ratione quis
+                        repudiandae maxime accusamus unde nobis.</p>
+                    <p class="leermar"><a href="">Leer más</a></p>
+                </article>
+            </aside>
+        </main>
+
+        <footer id="footer" class="zona">
+            <nav>
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Donde estamos</a></li>
+                    <li><a href="">Aviso legal</a></li>
+                </ul>
+            </nav>
+            <nav id="social">
+                <a href=""><img width="24" src="imgs/ico-face.png" alt="Facebook"></a>
+                <a href=""><img width="24" src="imgs/ico-twitter.png" alt="Twitter"></a>
+            </nav>
+        </footer>
+    </div>
+    <div id="overlay"></div>
+</body>
+
+</html>
