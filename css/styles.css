@@ -3,6 +3,7 @@
     max-width: 1200px;
     margin: 0 auto;
     background-color:#E4E4E4;
+   
 }
 .zona {
     overflow:hidden;
@@ -75,12 +76,13 @@ nav#social a { margin: 0 3px; }
 
 .registro{
     margin-top: 30px;
+    margin-left: 70px;
 }
 #formulario {
     margin-top: 20px;
-width: 50%;
+width: 45%;
 box-shadow: 0 4px 8px 0 rgba(33, 157, 157, 255), 0 10px 10px 0 rgba(249,170,29,255);
-padding: 100px;
+padding: 50px;
 float: left;
 display: inline;
 }
@@ -88,11 +90,12 @@ display: inline;
 #mapa {
     margin-top: 20px;
     display: inline;
-    width: 40%;
+    width: 45%;
+    
     box-shadow: 0 4px 8px 0 rgba(33, 157, 157, 255), 0 10px 10px 0 rgba(249,170,29,255);
     padding:5px;
     float: right;
-    margin-right: 100px;
+    
 }
 .colorBoton{
     color: rgb(19, 36, 219);
